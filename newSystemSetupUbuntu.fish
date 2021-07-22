@@ -6,7 +6,7 @@ echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 
 # Packages to install
-sudo apt -y install curl flatpak gnome-software-plugin-flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine
+sudo apt -y install flatpak gnome-software-plugin-flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine
 
 # Packages to remove
 sudo apt -y remove snapd
