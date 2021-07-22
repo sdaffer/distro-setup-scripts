@@ -62,9 +62,6 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh
 chmod +x Miniconda3-py39_4.9.2-Linux-x86_64.sh
 bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
 ~/miniconda3/bin/conda init fish
-# fish
-conda config --set auto_activate_base false
-conda deactivate
 
 
 # Gnome settings
@@ -77,7 +74,3 @@ perl keybindingsGnomeBackupRestore.pl -i keys.csv
 
 # Dropbox
 sudo apt -y install nautilus-dropbox
-
-
-# Finally, reboot
-reboot
