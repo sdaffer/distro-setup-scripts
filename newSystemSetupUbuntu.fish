@@ -1,7 +1,7 @@
 # Finish fish setup
 omf install harleen
 omf install expand
-cat aliases.txt >> ~/.config/fish/aliases.fish
+cat aliases.fish >> ~/.config/fish/aliases.fish
 echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 
@@ -52,6 +52,7 @@ sudo apt -y install code-insiders
 
 
 # Autostart applications setup
+mkdir ~/.config/autostart/
 cp ./autostartDesktopFiles/Slack.desktop ~/.config/autostart/
 cp ./autostartDesktopFiles/Signal.desktop ~/.config/autostart/
 cp ./autostartDesktopFiles/Bitwarden.desktop ~/.config/autostart/
