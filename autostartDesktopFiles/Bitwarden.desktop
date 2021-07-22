@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=flatpak run com.bitwarden.desktop
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[en_US]=Bitwarden
+Name=Bitwarden
+Comment[en_US]=
+Comment=
+X-MATE-Autostart-Delay=0

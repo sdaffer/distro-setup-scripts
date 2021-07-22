@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=flatpak run org.signal.Signal --use-tray-icon
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[en_US]=Signal
+Name=Signal
+Comment[en_US]=
+Comment=
+X-MATE-Autostart-Delay=0
