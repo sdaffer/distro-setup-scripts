@@ -1,7 +1,7 @@
 # Finish fish setup
 omf install harleen
 omf install expand
-cat aliases.fish >> ~/.config/fish/aliases.fish
+cat ../aliases.fish >> ~/.config/fish/aliases.fish
 echo "set -U fish_greeting" >> ~/.config/fish
 echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
