@@ -70,7 +70,7 @@ gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
 # Gnome keybindings import - if this doesn't work, there's anther way with dumping dconf settings
 # the second method is outlined in my firefox bookmark about gnome keybindings
 # if using the second method, remember to install dconf in this script on the first line
-perl keybindingsGnomeBackupRestore.pl -i keys.csv
+perl ../keybindingsGnomeBackupRestore.pl -i ../keys.csv
 
 
 # Dropbox
