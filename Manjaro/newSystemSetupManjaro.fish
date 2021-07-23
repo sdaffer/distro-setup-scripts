@@ -7,7 +7,7 @@ echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 
 # Packages to install
-sudo pacman -S --noconfirm yay flatpak vim pavucontrol sshfs dropbox
+sudo pacman -S --noconfirm yay flatpak vim pavucontrol sshfs dropbox base-devel
 yay -S --noconfirm brave-bin atom-editor-bin visual-studio-code-bin gnome-shell-extension-caffeine-git
 
 # LANL mount process setup
