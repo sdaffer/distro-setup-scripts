@@ -21,8 +21,8 @@ mkdir ~/LANL/SLACServRoot
 # Flatpak section
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak -y install com.bitwarden.desktop org.signal.Signal com.slack.Slack PyCharm-Professional
-sudo cp signal_exec_in_tray.txt /var/lib/flatpak/exports/share/applications/org.signal.Signal.desktop
-sudo cp signal_exec_in_tray.txt /var/lib/flatpak/app/org.signal.Signal/current/active/export/share/applications/org.signal.Signal.desktop
+sudo cp ../Signal.desktop /var/lib/flatpak/exports/share/applications/org.signal.Signal.desktop
+sudo cp ../Signal.desktop /var/lib/flatpak/app/org.signal.Signal/current/active/export/share/applications/org.signal.Signal.desktop
 
 
 # Kite setup - I think I'm going to leave this off for now
@@ -30,9 +30,9 @@ sudo cp signal_exec_in_tray.txt /var/lib/flatpak/app/org.signal.Signal/current/a
 
 # Autostart applications setup
 mkdir ~/.config/autostart/
-cp ./autostartDesktopFiles/Slack.desktop ~/.config/autostart/
-cp ./autostartDesktopFiles/Signal.desktop ~/.config/autostart/
-cp ./autostartDesktopFiles/Bitwarden.desktop ~/.config/autostart/
+cp ../autostartDesktopFiles/Slack.desktop ~/.config/autostart/
+cp ../autostartDesktopFiles/Signal.desktop ~/.config/autostart/
+cp ../autostartDesktopFiles/Bitwarden.desktop ~/.config/autostart/
 
 
 # Conda setup
