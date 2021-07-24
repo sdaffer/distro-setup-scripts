@@ -8,7 +8,7 @@ echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 # Packages to install
 sudo pacman -S --noconfirm yay flatpak vim pavucontrol sshfs dropbox base-devel
-yay -S --noconfirm brave-bin atom-editor-bin visual-studio-code-bin gnome-shell-extension-caffeine-git
+yay -S --noconfirm brave-bin atom-editor-bin visual-studio-code-bin gnome-shell-extension-caffeine-git miniconda3
 
 # LANL mount process setup
 mkdir ~/LANL
@@ -35,11 +35,7 @@ cp ../autostartDesktopFiles/Signal.desktop ~/.config/autostart/
 cp ../autostartDesktopFiles/Bitwarden.desktop ~/.config/autostart/
 
 
-# Conda setup
-wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh
-chmod +x Miniconda3-py39_4.9.2-Linux-x86_64.sh
-bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
-~/miniconda3/bin/conda init fish
+# Conda setup - for Arch based it will be installed through the AUR above
 
 
 # Gnome settings
