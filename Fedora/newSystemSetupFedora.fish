@@ -7,7 +7,7 @@ echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 
 # Packages to install
-sudo dnf -y install wget flatpak gnome-software-plugin-flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine
+sudo dnf -y install wget flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine
 
 # Packages to remove
 sudo dnf -y remove snapd
