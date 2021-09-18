@@ -1,5 +1,8 @@
+# Get powerline fonts so agnoster works
+sudo pacman -S --noconfirm powerline-fonts # if this doesn't work try powerline-fonts-git from the AUR with yay
+
 # Finish fish setup
-omf install harleen
+omf install agnoster
 omf install expand
 cat ../aliases.fish >> ~/.config/fish/aliases.fish
 echo "set -U fish_greeting" >> ~/.config/fish/config.fish

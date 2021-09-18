@@ -1,5 +1,7 @@
+# Get powerline fonts so agnoster works
+sudo dnf -y install powerline powerline-fonts # if this doesn't work then try the patched powerline fonts from git?
+
 # Finish fish setup
-# omf install harleen
 omf install agnoster
 omf install expand
 cat ../aliases.fish >> ~/.config/fish/aliases.fish
