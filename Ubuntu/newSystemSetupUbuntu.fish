@@ -1,5 +1,5 @@
 # Finish fish setup
-omf install harleen
+omf install agnoster
 omf install expand
 cat ../aliases.fish >> ~/.config/fish/aliases.fish
 echo "set -U fish_greeting" >> ~/.config/fish/config.fish
@@ -7,7 +7,7 @@ echo "source ~/.config/fish/aliases.fish" >> ~/.config/fish/config.fish
 
 
 # Packages to install
-sudo apt -y install flatpak gnome-software-plugin-flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine
+sudo apt -y install flatpak gnome-software-plugin-flatpak vim pavucontrol apt-transport-https sshfs gnome-shell-extension-caffeine fonts-powerline
 
 # Packages to remove
 sudo apt -y remove snapd
@@ -22,7 +22,7 @@ mkdir ~/LANL/SLACServRoot
 
 # Flatpak section
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak -y install com.bitwarden.desktop org.signal.Signal com.slack.Slack PyCharm-Professional
+flatpak -y install com.bitwarden.desktop org.signal.Signal com.slack.Slack PyCharm-Professional com.spotify.Client
 sudo cp ../Signal.desktop /var/lib/flatpak/exports/share/applications/org.signal.Signal.desktop
 sudo cp ../Signal.desktop /var/lib/flatpak/app/org.signal.Signal/current/active/export/share/applications/org.signal.Signal.desktop
 
